@@ -22,187 +22,218 @@
 </head>
 
 <body>
-    <header>
-        <section class="container">
-            <div class="logo">
-                <a href="index.html"><img src="pictures/logo-principal.png" alt=""></a>
-            </div>
-            <ul class="abas">
-                <li><a href="/public/ofertas.html">OFERTAS</a></li>
-                <li><a href="/public/lancamentos.html">LANÇAMENTOS</a></li>
-                <li><a href="/public/marcas.html">MARCAS</a></li>
-                <li><a href="/public/sobre.html">SOBRE</a></li>
-                <li><a href="/public/login.html">ENTRAR</a></li>
-                <li><a href="#"><i class='bx bx-shopping-bag'></i></a></li>
-                <div class="pesquisa">
-                    <input type="text" id="pesquisa" placeholder="Pesquise o produto desejado...">
-                    <li><a href="#"><i class='bx bx-search-alt-2'></i></a></li>
+    <section class="container">
+
+        <div class="logo">
+            <a href="index.html">
+                <img src="pictures/logo-principal.png" alt="">
+            </a>
+        </div>
+
+        <ul class="abas">
+
+            <!-- DROPDOWN OFERTAS -->
+            <li class="dropdown">
+                <a href="/public/ofertas.html">OFERTAS</a>
+
+                <div class="submenu">
+                    <a href="/public/ofertas.html">DESCONTO</a>
+                    <a href="#">CALÇADOS</a>
+                    <a href="#">CAMISETAS</a>
+                    <a href="#">CALÇAS</a>
+                    <a href="#">CONJUNTOS</a>
+                    <a href="#">ACESSÓRIOS</a>
+                    <a href="#">SHORTS</a>
                 </div>
-            </ul>
+            </li>
+
+            <li><a href="/public/lancamentos.html">LANÇAMENTOS</a></li>
+            <!-- DROPDOWN OFERTAS -->
+            <li class="dropdown">
+                <a href="#">MARCAS</a>
+
+                <div class="submenu">
+                    <a href="#">NIKE</a>
+                    <a href="#">ADIDAS</a>
+                </div>
+            </li>
+            <li><a href="/public/sobre.html">SOBRE</a></li>
+            <li><a href="/public/login.html">ENTRAR</a></li>
+
+            <li>
+                <a href="#"><i class='bx bx-shopping-bag'></i></a>
+            </li>
+
+            <div class="pesquisa">
+                <input type="text" id="pesquisa" placeholder="Pesquise o produto desejado...">
+                <li>
+                    <a href="#"><i class='bx bx-search-alt-2'></i></a>
+                </li>
             </div>
-        </section>
+
+        </ul>
+
+    </section>
     </header>
     <div class="tituloLancamento">
         <h1>Confira nossos mais novos lançamentos</h1>
     </div>
-   <section class="container-airmax">
+    <section class="container-airmax">
 
-    <div class="conteudo-airmax">
+        <div class="conteudo-airmax">
 
-        <h2 class="titulo-airmax">
-            Nike <span>Air Max</span>
-        </h2>
+            <h2 class="titulo-airmax">
+                Nike <span>Air Max</span>
+            </h2>
 
-        <p class="descricao-airmax">
-            Desenvolvido para quem busca estilo, conforto e performance em cada passo.
-        </p>
+            <p class="descricao-airmax">
+                Desenvolvido para quem busca estilo, conforto e performance em cada passo.
+            </p>
 
-        <div class="valor">
-            R$ 1.299
+            <div class="valor">
+                R$ 749,99
+            </div>
+
+            <div class="botoes-airmax">
+
+                <button class="comprar-airmax" id="btnComprarAirmax">
+                    Comprar Agora
+                </button>
+
+                <button class="saiba-airmax" id="btnSaibaAirmax">
+                    Saiba Mais
+                </button>
+
+            </div>
+
         </div>
 
-        <div class="botoes-airmax">
+        <img src="pictures/tenis1.jpg" alt="Nike Air Max" class="img1">
 
-            <button class="comprar-airmax" id="btnComprarAirmax">
-                Comprar Agora
-            </button>
+    </section>
 
-            <button class="saiba-airmax" id="btnSaibaAirmax">
-                Saiba Mais
-            </button>
+    <!-- SAIBA MAIS -->
+
+    <section class="detalhes-airmax" id="detalhesAirmax">
+
+        <h2>Explore o Air Max</h2>
+
+        <div class="galeria-airmax">
+
+            <img src="pictures/tenis1.jpg" alt="Air Max Vista 1">
+            <img src="pictures/tenis2.webp" alt="Air Max Vista 2">
+            <img src="pictures/tenis3.webp" alt="Air Max Vista 3">
 
         </div>
 
-    </div>
+        <iframe title="Nike Air Max" allowfullscreen
+            src="https://sketchfab.com/models/feaf82967c5f44bd94aa774228d76d21/embed">
+        </iframe>
 
-    <img src="pictures/tenis1.jpg" alt="Nike Air Max" class="img1">
+    </section>
 
-</section>
+    <!-- COMPRAR -->
 
-<!-- SAIBA MAIS -->
+    <section class="comprar-airmax-container" id="comprarAirmax">
 
-<section class="detalhes-airmax" id="detalhesAirmax">
+        <h2>Escolha seu tamanho</h2>
 
-    <h2>Explore o Air Max</h2>
+        <div class="tamanhos-airmax">
 
-    <div class="galeria-airmax">
+            <button>38</button>
+            <button>39</button>
+            <button>40</button>
+            <button>41</button>
+            <button>42</button>
+            <button>43</button>
 
-        <img src="pictures/tenis1.jpg" alt="Air Max Vista 1">
-        <img src="pictures/tenis2.webp" alt="Air Max Vista 2">
-        <img src="pictures/tenis3.webp" alt="Air Max Vista 3">
-
-    </div>
-
-    <iframe
-        title="Nike Air Max"
-        allowfullscreen
-        src="https://sketchfab.com/models/feaf82967c5f44bd94aa774228d76d21/embed">
-    </iframe>
-
-</section>
-
-<!-- COMPRAR -->
-
-<section class="comprar-airmax-container" id="comprarAirmax">
-
-    <h2>Escolha seu tamanho</h2>
-
-    <div class="tamanhos-airmax">
-
-        <button>38</button>
-        <button>39</button>
-        <button>40</button>
-        <button>41</button>
-        <button>42</button>
-        <button>43</button>
-
-    </div>
-
-    <button class="finalizar-airmax">
-        Finalizar Compra
-    </button>
-
-</section>
-
-<section class="container-vapormax">
-
-    <div class="conteudo-vapormax">
-
-        <h2 class="titulo-vapormax">
-            NIKE <br>
-            <span>VAPORMAX</span>
-        </h2>
-
-        <p class="descricao-vapormax">
-            Tecnologia Air em toda a sola para máximo amortecimento,
-            conforto e um visual futurista.
-        </p>
-
-        <div class="preco-vapormax">
-            R$ 1.499
         </div>
 
-        <div class="botoes-vapormax">
-           <button class="comprar" id="btnComprar">
-                Comprar Agora
+        <button class="finalizar-airmax">
+            Finalizar Compra
         </button>
 
-            <button class="saiba-mais" id="btnSaibaMais">
-                Saiba Mais
-            </button>
+    </section>
+
+    <section class="container-vapormax">
+
+        <div class="conteudo-vapormax">
+
+            <h2 class="titulo-vapormax">
+                NIKE <br>
+                <span>VAPORMAX</span>
+            </h2>
+
+            <p class="descricao-vapormax">
+                Tecnologia Air em toda a sola para máximo amortecimento,
+                conforto e um visual futurista.
+            </p>
+
+            <div class="preco-vapormax">
+                R$ 899,99
+            </div>
+
+            <div class="botoes-vapormax">
+                <button class="comprar" id="btnComprar">
+                    Comprar Agora
+                </button>
+
+                <button class="saiba-mais" id="btnSaibaMais">
+                    Saiba Mais
+                </button>
+            </div>
+
         </div>
 
-    </div>
-   
-    <div class="imagem-vapormax">
-        <img src="pictures/tenis4.avif" alt="Nike VaporMax">
-    </div>
+        <div class="imagem-vapormax">
+            <img src="pictures/tenis4.avif" alt="Nike VaporMax">
+        </div>
 
-</section>
+    </section>
 
-<!-- DETALHES -->
-<section class="detalhes-vapormax" id="detalhesVapormax">
+    <!-- DETALHES -->
+    <section class="detalhes-vapormax" id="detalhesVapormax">
 
-    <h2>Explore o VaporMax</h2>
+        <h2>Explore o VaporMax</h2>
 
-    <div class="galeria-vapormax">
-        <img src="pictures/tenis4.avif">
-        <img src="pictures/tenis5.jpg">
-        <img src="pictures/tenis6.jpg">
-    </div>
+        <div class="galeria-vapormax">
+            <img src="pictures/tenis4.avif">
+            <img src="pictures/tenis5.jpg">
+            <img src="pictures/tenis6.jpg">
+        </div>
 
-     <iframe title="Nike Vapormaxx 2021" frameborder="0" allowfullscreen
-        mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking"
-        xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share
-        src="https://sketchfab.com/models/27406b53808a41c681b8e63cf7868997/embed"> </iframe>
-</section>
+        <iframe title="Nike Vapormaxx 2021" frameborder="0" allowfullscreen mozallowfullscreen="true"
+            webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
+            execution-while-out-of-viewport execution-while-not-rendered web-share
+            src="https://sketchfab.com/models/27406b53808a41c681b8e63cf7868997/embed"> </iframe>
+    </section>
 
- <section class="comprar-vapormax" id="comprarVapormax">
+    <section class="comprar-vapormax" id="comprarVapormax">
 
-    <h2>Finalizar Compra</h2>
+        <h2>Finalizar Compra</h2>
 
-    <div class="tamanhos">
+        <div class="tamanhos">
 
-        <button>38</button>
-        <button>39</button>
-        <button>40</button>
-        <button>41</button>
-        <button>42</button>
-        <button>43</button>
+            <button>38</button>
+            <button>39</button>
+            <button>40</button>
+            <button>41</button>
+            <button>42</button>
+            <button>43</button>
 
-    </div>
+        </div>
 
-    <div class="compra-info">
-        <p>Frete grátis para todo Brasil</p>
-        <p>Entrega em até 7 dias úteis</p>
-        <p>Pagamento em até 12x sem juros</p>
-    </div>
+        <div class="compra-info">
+            <p>Frete grátis para todo Brasil</p>
+            <p>Entrega em até 7 dias úteis</p>
+            <p>Pagamento em até 12x sem juros</p>
+        </div>
 
-    <button class="finalizar-compra">
-        Finalizar Compra
-    </button>
+        <button class="finalizar-compra">
+            Finalizar Compra
+        </button>
 
-</section>
+    </section>
 
     <footer class="footer">
         <div class="footer-container">
