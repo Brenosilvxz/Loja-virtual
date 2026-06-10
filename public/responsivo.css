@@ -1,0 +1,125 @@
+/* TABLETS */
+
+@media (max-width: 1024px) {
+
+    .container-airmax,
+    .container-vapormax {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .img1,
+    .imagem-vapormax img {
+        position: static;
+        width: 80%;
+        max-width: 500px;
+        margin: 0 auto;
+        transform: none;
+        display: block;
+    }
+
+    .valor,
+    .preco-vapormax {
+        margin: 20px auto;
+    }
+
+    .botoes-airmax,
+    .botoes-vapormax {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .galeria-airmax,
+    .galeria-vapormax {
+        flex-wrap: wrap;
+    }
+
+    .galeria-airmax img,
+    .galeria-vapormax img {
+        width: 45%;
+    }
+
+    iframe {
+        width: 100%;
+        height: 500px;
+    }
+}
+
+/* CELULARES */
+
+@media (max-width: 768px) {
+
+    .titulo-airmax,
+    .titulo-vapormax {
+        font-size: 2.5rem;
+    }
+
+    .descricao-airmax,
+    .descricao-vapormax {
+        font-size: .95rem;
+        padding: 0 20px;
+    }
+
+    .img1,
+    .imagem-vapormax img {
+        width: 95%;
+    }
+
+    .botoes-airmax,
+    .botoes-vapormax {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .comprar-airmax,
+    .saiba-airmax,
+    .comprar,
+    .saiba-mais {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .galeria-airmax img,
+    .galeria-vapormax img {
+        width: 100%;
+    }
+
+    .tamanhos-airmax,
+    .tamanhos {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    iframe {
+        height: 350px;
+    }
+}
+
+/* CELULARES PEQUENOS */
+
+@media (max-width: 480px) {
+
+    .titulo-airmax,
+    .titulo-vapormax {
+        font-size: 2rem;
+    }
+
+    .valor,
+    .preco-vapormax {
+        font-size: 1rem;
+        width: fit-content;
+        padding: 10px 20px;
+    }
+
+    iframe {
+        height: 250px;
+    }
+
+    .detalhes-airmax h2,
+    .detalhes-vapormax h2,
+    .comprar-airmax-container h2,
+    .area-compra h2 {
+        font-size: 1.8rem;
+    }
+}
