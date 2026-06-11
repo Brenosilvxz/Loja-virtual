@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: Arial;
+    background: #0f0f0f;
+    color: white;
+}
+
+/* ===== PRODUTO ===== */
+.produto {
+    display: flex;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+/* ===== GALERIA ===== */
+.galeria {
+    flex: 1;
+    position: relative;
+    min-width: 300px;
+}
+
+.galeria img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* BOTÕES CARROSSEL */
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.7);
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
+/* ===== INFO ===== */
+.info-produto {
+    flex: 1;
+    min-width: 280px;
+}
+
+.info-produto h2 {
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.info-produto h3 {
+    color: green;
+    margin-top: 10px;
+}
+
+.info-produto p {
+    margin-top: 15px;
+    color: #ccc;
+}
+
+/* ===== BOTÃO COMPRAR ===== */
+.comprar {
+    margin-top: 20px;
+    padding: 15px 30px;
+    background: green;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.comprar:hover {
+    background: darkgreen;
+}
+
+/* ===== VOLTAR ===== */
+.btn-voltar {
+    display: inline-block;
+    margin-top: 15px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+/* ===== COMPRA ===== */
+.comprar-vapormax {
+    display: none;
+    width: 100%;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #111;
+    text-align: center;
+    border-radius: 15px;
+    clear: both;
+}
+
+.comprar-vapormax.mostrar {
+    display: block;
+}
+
+/* ===== TAMANHOS ===== */
+.tamanhos {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.tamanhos button {
+    padding: 10px 15px;
+    background: #222;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+.tamanhos button:hover {
+    background: green;
+}
+
+/* ===== FINALIZAR ===== */
+.finalizar-compra {
+    margin-top: 20px;
+    padding: 15px 25px;
+    background: green;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.finalizar-compra:hover {
+    background: darkgreen;
+    transform: scale(1.05);
+}

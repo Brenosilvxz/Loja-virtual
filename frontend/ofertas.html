@@ -17,27 +17,28 @@
     <!--Icons-->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!--CSS-->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
     <section class="container">
 
         <div class="logo">
-            <a href="index.html">
+            <a href="./index.html">
                 <img src="pictures/logo-principal.png" alt="">
             </a>
         </div>
 
+        
         <ul class="abas">
 
             <!-- DROPDOWN OFERTAS -->
             <li class="dropdown">
-                <a href="/public/ofertas.html">OFERTAS</a>
+                <a href="./ofertas.html">OFERTAS</a>
 
                 <div class="submenu">
-                    <a href="/public/ofertas.html">DESCONTO</a>
-                    <a href="#">CALÇADOS</a>
+                    <a href="./ofertas.html">DESCONTO</a>
+                    <a href="./calcados.html">CALÇADOS</a>
                     <a href="#">CAMISETAS</a>
                     <a href="#">CALÇAS</a>
                     <a href="#">CONJUNTOS</a>
@@ -46,7 +47,7 @@
                 </div>
             </li>
 
-            <li><a href="/public/lancamentos.html">LANÇAMENTOS</a></li>
+            <li><a href="./lancamentos.html">LANÇAMENTOS</a></li>
             <!-- DROPDOWN OFERTAS -->
             <li class="dropdown">
                 <a href="#">MARCAS</a>
@@ -56,8 +57,8 @@
                     <a href="#">ADIDAS</a>
                 </div>
             </li>
-            <li><a href="/public/sobre.html">SOBRE</a></li>
-            <li><a href="/public/login.html">ENTRAR</a></li>
+            <li><a href="./sobre.html">SOBRE</a></li>
+            <li><a href="./login.html">ENTRAR</a></li>
 
             <li>
                 <a href="#"><i class='bx bx-shopping-bag'></i></a>
@@ -78,67 +79,90 @@
         <h1>Produtos com Desconto</h1>
     </div>
     <section class="produtos">
-        <div class="produto1">
-            <a href="#">
-                <img src="/public/pictures/oferta1.jpg" alt="">
-                <h2>20% OFF</h2>
-                <div class="precos">
-                    <button class="risco">R$150,00 </button>
-                    <button class="semRisco">R$130,00</button>
-                </div>
-            </a>
-        </div>
-        <div class="produto2">
-            <a href="">
-                <img src="/public/pictures/oferta2.jpg" alt="">
-                <h2>20% OFF</h2>
-                <div class="precos">
-                    <button class="risco">R$200,00 </button>
-                    <button class="semRisco">R$160,00</button>
-                </div>
-            </a>
-        </div>
-        <div class="produto3">
-            <a href="">
-                <img src="/public/pictures/oferta3.avif" alt="">
-                <h2>20% OFF</h2>
-                <div class="precos">
-                    <button class="risco">R$130,00 </button>
-                    <button class="semRisco">R$104,00</button>
-                </div>
-            </a>
-        </div>
-    </section>
-    <section class="produtos2">
-        <div class="produto4">
-            <img src="/public/pictures/oferta4.jpg" alt="">
-            <a href="">
-                <h2>20% OFF</h2>
-                <div class="precos">
-                    <button class="risco">R$210,00 </button>
-                    <button class="semRisco">R$168,00</button>
-                </div>
-            </a>
-        </div>
-        <div class="produto5">
-            <a href="">
-                <img src="/public/pictures/oferta5.jpg" alt="">
-                <h2>20% OFF</h2>
-                <div class="precos">
-                    <button class="risco">R$100,00 </button>
-                    <button class="semRisco">R$80,00</button>
-                </div>
-            </a>
-        </div>
-        <div class="produto6">
-            <img src="/public/pictures/oferta6.jpg" alt="">
+
+    <div class="produto produto1">
+        <a href="./produto1.html">
+            <img src="pictures/oferta1.jpg" alt="Nike Club Fleece">
+            <h3>Moletom Nike Club Fleece</h3>
             <h2>20% OFF</h2>
+
             <div class="precos">
-                <button class="risco">R$120,00 </button>
+                <button class="risco">R$150,00</button>
+                <button class="semRisco">R$130,00</button>
+            </div>
+        </a>
+    </div>
+
+    <div class="produto produto2">
+        <a href="#">
+            <img src="pictures/oferta2.jpg" alt="Blusa Tech Fleece">
+            <h3>Jaqueta Blusa Tech Fleece</h3>
+            <h2>20% OFF</h2>
+
+            <div class="precos">
+                <button class="risco">R$200,00</button>
+                <button class="semRisco">R$160,00</button>
+            </div>
+        </a>
+    </div>
+
+    <div class="produto produto3">
+        <a href="#">
+            <img src="pictures/oferta3.avif" alt="Calça Tech Fleece">
+            <h3>Calça Tech Fleece</h3>
+            <h2>20% OFF</h2>
+
+            <div class="precos">
+                <button class="risco">R$130,00</button>
+                <button class="semRisco">R$104,00</button>
+            </div>
+        </a>
+    </div>
+
+</section>
+
+<section class="produtos2">
+
+    <div class="produto produto4">
+        <a href="#">
+            <img src="pictures/oferta4.jpg" alt="Air Force 1">
+            <h3>Tênis  Air Force 1</h3>
+            <h2>20% OFF</h2>
+
+            <div class="precos">
+                <button class="risco">R$210,00</button>
+                <button class="semRisco">R$168,00</button>
+            </div>
+        </a>
+    </div>
+
+    <div class="produto produto5">
+        <a href="#">
+            <img src="pictures/oferta5.jpg" alt="Mochila Nike">
+            <h3>Mochila Nike</h3>
+            <h2>20% OFF</h2>
+
+            <div class="precos">
+                <button class="risco">R$100,00</button>
+                <button class="semRisco">R$80,00</button>
+            </div>
+        </a>
+    </div>
+
+    <div class="produto produto6">
+        <a href="#">
+            <img src="pictures/oferta6.jpg" alt="Chinelo Nike">
+            <h3>Chinelo Nike</h3>
+            <h2>20% OFF</h2>
+
+            <div class="precos">
+                <button class="risco">R$120,00</button>
                 <button class="semRisco">R$96,00</button>
             </div>
-    </section>
+        </a>
+    </div>
 
+</section>
 
 
     <footer class="footer">
@@ -178,6 +202,7 @@
             <p>© 2026 MEE VISUALS • Todos os direitos reservados.</p>
         </div>
     </footer>
+    <script src="./pesquisa.js"></script>
 </body>
 
 </html>
